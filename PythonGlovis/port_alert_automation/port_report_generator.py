@@ -14,7 +14,7 @@ excel_filename = f"weekly_alert_report_{date_str}.xlsx"
 csv_filename = f"alert_summary_{date_str}.csv"
 
 # ---------- 1. Load Data from Excel ----------
-df = pd.read_excel("port_alert_automation/July-Dummy-Data.xlsx")
+df = pd.read_excel("port_alert_automation/July-Dummy-Data01.xlsx")
 df.columns = df.columns.str.strip()
 
 df['Tender Date'] = pd.to_datetime(df['Tender Date'], errors='coerce')
