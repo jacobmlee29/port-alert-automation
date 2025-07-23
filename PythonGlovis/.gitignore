@@ -1,0 +1,17 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environment
+.venv/
+
+# Ignore output reports
+*.xlsx
+*.csv
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore secrets
+.env
